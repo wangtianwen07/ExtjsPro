@@ -1,0 +1,450 @@
+@charset "utf-8";
+/* CSS Document */
+* { 
+	margin:0px; 
+	padding:0px;
+}
+div, ul, li, p, h1, h2, h3, h4, img {
+	margin:0;
+	padding:0;
+}
+html, body {
+	width:100%;
+	font:normal 12px/24px Arial, Helvetica, sans-serif;
+	color:#333; 
+	SCROLLBAR-FACE-COLOR:#dcecfc; 
+	SCROLLBAR-HIGHLIGHT-COLOR:#fff; 
+	SCROLLBAR-SHADOW-COLOR:#b2d1f8; 
+	SCROLLBAR-3DLIGHT-COLOR:#e2f2ff; 
+	SCROLLBAR-DARKSHADOW-COLOR:#f4f9ff;
+	SCROLLBAR-ARROW-COLOR:#6299de; 
+	SCROLLBAR-TRACK-COLOR:#f4f9ff;
+}
+img {border:none;}
+table
+{
+	empty-cells: show;
+	border-collapse: collapse;
+    border-spacing: 0;
+}
+a {
+	color:#333;
+	text-decoration:none;
+}
+a:hover {color:#C00;}
+.fL{ float:left;}
+.fR{ float:right;}
+
+
+.width1{ width:56%;}
+.width2{ width:42%;}
+.width3{ width:49%;}
+.width4{ width:96%;}/*问题描述宽度*/
+.width5{ width:100%;}
+.width6{ width:80%;}/*基本信息输入框宽度*/
+.width7{ width:72%;}/*时间选项输入框宽度*/
+.width8{ width:40%;}/*时间选项输入框宽度*/
+.width9{ width:20%;}/*时间选项输入框宽度*/
+.height26{ height:26px;}/*表格行高*/
+.height30{ height:30px;}
+.height50{ height:50px;}/*备注高度*/
+.mL10{ margin-left:10px;}
+.mL5{ margin-left:5px;}/*模块左右间距*/
+.mT10{ margin-top:10px;}
+.mT3{ margin-top:3px;}/*施工监理单位输入框上下间距*/
+.mR10{ margin-right:10px;}
+.mT15{ margin-top:15px;}
+.mT5{ margin-top:5px;}/* 模块上下间距 */
+.mR5{ margin-right:5px;}
+.pb5{ padding-bottom:5px;}
+.pt5{ padding-top:5px;}
+.pt10{ padding-top:10px;}
+.pb10{ padding-bottom:10px;}
+.pr5{ padding-right:5px;}
+.pl5{ padding-left:5px;}
+.pl10{ padding-left:10px;}
+.p2{ padding:2px;}
+
+.clear{ width:100%; clear:both;}/*中间内容区清除浮动 */
+.clear5{ width:100%; height:5px; clear:both;}/* 底部清除浮动 */
+.center{ text-align:center;}
+
+
+.position1{position:absolute; right:0; top:0;}/*施工监理委托提交按钮定位*/
+.position2{position:absolute; right:60px; top:0;}
+.position3{position:relative; left:-5px; top:8px;}
+.position4{position:relative; top:2px;}/*fieldset图标定位 */
+.position5{position:absolute;}
+.position6{position:relative; top:-5px;}
+.btn_right{ float:right; margin-top:3px; margin-right:10px;}/*最右侧按钮定位*/
+
+.line_ht18{ line-height:18px;}
+.line_ht22{ line-height:22px;}
+.line_ht26{ line-height:26px;}
+.more{ width:50px; line-height:26px; padding-right:5px; background:url(../images/more.png) no-repeat 23px 3px; float:right;}/*右侧标题处更多 */
+.icon_position{ position:relative; top:4px;}
+.importText{width:250px;height:17px;padding-left:18px;background:url(../images/icon6.png) no-repeat 0 2px;background-color:white;padding-top:1px;height:20px;}
+
+/* ----字体设置---- */
+.gray{ color:#666;}
+.white{ color:#fff;}
+.red{ color:#C00;}/* 红色字 */
+.yellow{ color:#ff9c00;}
+.blue1{ color:#2884f6;}
+.blue2{ color:#2e3c79;}/* 表头文字颜色 */
+.blue3{ color:#1e66ba;}
+.blue4{ color:#2e7ac2;}
+.green{ color:#1e8f09;}
+.f18{ font-size:18px;}
+.f16{ font-size:16px;}
+
+/* ----边框---- */
+.boder1{ border:1px solid #b8cbef; border-top:none;}/* 内容边框 */
+.boder_pg{border:1px solid #b8cbef; border-top:none;border-bottom:none;}/*带分页组件的内容框*/
+.boder2{ border:1px solid #b2d4f6; }/* fieldset字段组边框 */
+.boder5{ border:1px solid #b8cbef; }
+.boder7{border:1px solid #b2d4f6; border-left:none; border-right:none;}
+.boder_b{border-bottom:1px solid #b8cbef;}/* fieldset里表格下边线 */
+.boder_b2{border-bottom:1px dotted #b8cbef;}
+.boder_r{ border-right:1px solid #b8cbef;}
+.boder_l{ border-left:1px solid #b8cbef;}
+
+/* ----控件fieldset右上角按钮----*/
+.cont_anniu_bk {
+	float:right;
+	margin-right:10px;
+	position:relative;
+	margin-top:-23px;
+	height:20px;
+	background:#FFF;
+}
+
+/* ----标题栏---- */
+.title_bg{ border:1px solid #b2d4f6; height:25px; background:url(../images/title1_bg.png) repeat-x; }/* 浅色标题栏背景 */
+.title{ text-indent:1.3em; line-height:25px; color:#000; float:left;}/* 标题栏图标定位 */
+.title_pic{position:relative; left:10px; top:6px; float:left;cursor: pointer;}/* 标题栏图标定位 */
+.title_node_pic{position:relative; left:10px; top:6px; float:left;}/* 标题栏图标定位 */
+.title_more{ float:right; padding-right:5px; margin-top:3px;}/* 左侧标题栏更多 */
+.title2_bg{ border:1px solid #b2d4f6; height:26px; background:url(../images/title2_bg.png) repeat-x;}/* 深色标题栏背景 */
+
+
+/* ----内容---- */
+.main{ width:90%; min-width:1000px; margin:0 auto; padding-top:5px;}/* 页面内容宽度 */
+.left{ width:18%; float:left;}/* 左侧内容宽度 */
+.right{ width:82%; float:right; }/* 右侧内容宽度 */
+
+
+/* ----首页左侧列表---- */
+.list{ width:100%; }
+.list ul{ list-style:none; line-height:28px;}
+.list ul li{ padding-left:15px; border-bottom:1px dotted #b2d4f6; }
+.list_icon{ background:url(../images/list_icon.png) no-repeat 7px 11px;}/* 我的项目图标 */
+.icon1{ position:relative; left:-5px; top:2px;}/* 首页左侧图标定位 */
+
+/*---- 自定义列表---- */
+.list2{ width:93%; float:left;}
+.list2 ul{ list-style:none; line-height:28px;}
+.list2 ul li{ float:left; width:110px; margin-left:20px; overflow:hidden;}
+.list2_icon{ float:left; padding-right:5px;}
+
+.list3{ width:100%;}
+.list3 ul{ list-style:none; text-align:left;}
+.list3 ul li{ padding-left:18px; background:url(../images/list_icon.png) no-repeat 10px 10px; border-bottom:1px dotted #b2d4f6;}
+#list3_bg{background:url(../images/list_icon2.png) no-repeat 10px 10px }
+
+/* ----内页左侧列表---- */
+.list4{ width:100%; }
+.list4 ul{ list-style:none; text-align:left; line-height:35px;}
+.list4 ul li{ padding-left:18px; background:url(../images/list_icon.png) no-repeat 10px 15px; border-bottom:1px dotted #b2d4f6;}
+#list4_bg{background:url(../images/list_icon.png) no-repeat 10px 15px #f0f8ff;}
+
+/* ---统计图标切换---- */
+#tab{}
+#tab .tabList{ height:26px; background:url(../images/title2_bg.png) repeat-x; border:1px solid #b2d4f6;}
+#tab .tabList ul li {
+	width:116px; 
+	color:#000; 
+	display:block; 
+	list-style:none; 
+	line-height:26px;
+	text-align:center;
+	padding-top:1px;
+	background:url(../images/title2_btn2.png) no-repeat; 
+	margin-left:2px;
+	float:left;
+	cursor:pointer;
+}
+#tab .tabCon{ position:relative;  }
+#tab .tabCon div{ 
+   width:100%; height:420px; position:absolute; 
+	opacity:0;
+	filter:alpha(opacity=0); 
+}
+#tab .tabList li.cur {
+	font-weight:bold;
+	background:url(../images/title2_btn1.png) no-repeat;
+}
+#tab .tabCon div.cur{
+	opacity:1;
+	filter:alpha(opacity=100);
+}
+/* ---查询页面结果--- */
+#tab2{}
+#tab2 .tabList{ height:26px; background:url(../images/title2_bg.png) repeat-x; border:1px solid #b2d4f6;border-left:none;border-right:none}/* tab标题 */
+#tab2 .tabList ul li {
+	width:66px; 
+	color:#000; 
+	display:block; 
+	list-style:none; 
+	line-height:26px;
+	text-align:center;
+	padding-top:1px;
+	background:url(../images/title3_btn2.png) no-repeat; 
+	margin-left:2px;
+	float:left;
+	cursor:pointer;
+}
+#tab2 .tabList ul li a{display:block; color:#333; }
+#tab2 .tabList ul li a:hover{font-weight:bold; background:url(../images/title3_btn1.png) no-repeat; }
+#tab2 .tabList li.cur {
+	font-weight:bold;
+	background:url(../images/title3_btn1.png) no-repeat;
+}
+
+/* 按钮 */
+.btn1{ width:64px; height:20px; background:url(../images/btn1.png) no-repeat; border:none; cursor:pointer;}/* 四个字灰色按钮 */
+.btn2{ width:44px; height:20px; background:url(../images/btn2.png) no-repeat; border:none; cursor: pointer;}/* 两个字灰色按钮 */
+.btn18{ width:130px; height:20px; background:url(../images/btn18.png) no-repeat; border:none; cursor:pointer;}/* 八个字灰色按钮 */
+.btn_oa{ height:30px; padding:2px; cursor: pointer;}/* OA发文按钮 */
+.btn7{ width:54px; height:20px; background:url(../images/btn7.png) no-repeat; border:none; cursor:pointer; color:#FFF; }/* 顶部保存提交蓝色按钮 */
+.btn8{ width:84px; height:20px; background:url(../images/btn8.png) no-repeat; border:none; cursor:pointer;}/* 五个字灰色按钮 */
+.btn14{ width:100px; height:20px; background:url(../images/btn14.png) no-repeat; border:none; cursor:pointer;}/* 七个字灰色按钮 */
+.btn17{ width:64px; height:20px; background:url(../images/btn17.png) no-repeat; border:none; cursor:pointer; color: white;}/* 四个字蓝色按钮 */
+
+/* ---表格---- */
+.th_bg{ background:url(../images/tab_th.png) repeat-x; height:26px;white-space: nowrap;}/* 表头背景 */
+.th_bg1{ background:url(../images/tab_th1.png) repeat-x; height:52px;}/* 表头背景 */
+.boder3{ border:1px solid #b8caee; border-left:none; border-bottom:none;}/* 单元格边框*/
+.boder4{ border-top:1px solid #b8caee; }/* 最右边单元格边框 */
+.bgcolor{ background-color:#f0f8ff;}/* 隔行蓝色底色 */
+.bgcolor2{ background-color:#e5f2ff;}/* 基本信息蓝背景色*/
+.bgcolor3{ background-color:#e5f2ff;}
+/* .bgcolor3{ background-color:#c3f2ff;} */
+
+.table2_h{height:26px; line-height:26px; text-align:center; border-right:1px solid #b8cbef; float:left;}
+.table2_h2{height:20px; padding-top:5px;text-align:center; border-right:1px solid #b8cbef; float:left; width:2%;}
+.table2_h4{height:18px; padding-top:8px;text-align:center; border-right:1px solid #b8cbef; float:left; width:2%;}
+.table2_h3{height:26px; line-height:26px; text-align:center; float:left;}
+/* 委托列表项目单元格宽度*/
+.table2_w1{width:3%;}
+.table2_w2{width:30%;}
+.table2_w3{width:6%;}
+.table2_w4{width:7%;}
+.table2_w5{width:15%;}
+.table2_w6{width:10%;}
+
+/*链接样式*/
+a {color: black;text-decoration: none;}
+a:link {color: black;text-decoration: none;}
+a:hover {color: red;text-decoration: underline;cursor: pointer;}
+
+/*链接样式*/
+a.handleLink {color: blue;text-decoration: none;}
+a.handleLink:link {color: blue;text-decoration: none;}
+a.handleLink:hover {color: red;text-decoration: underline;cursor: pointer;}
+
+/* ----下拉表格 ----*/
+.table2_bk{border:1px solid #8ba4c9; padding:3px; background:#c6dcfb;}
+.table2_cont{background:#f4f9ff;}
+.table2_w8{width:93%;}
+.table2_w9{width:75%;}
+.table2_h5{height:40px; padding-left:10px; line-height:40px;}
+.table2_tt{ width:15%; padding-left:5px; text-align:right; }
+
+/*---table的隔行换色---*/
+.tableView{text-align:center;}
+table.tableView tr:nth-child(2n+3){
+	background-color: #f0f8ff;
+}
+
+/* ----任务列表下拉框---- */
+.L_spacing{ margin-left:10px; margin-top:3px; float:right;}/* 下拉框左边距 */
+.sel_width1{ width:65px;}/* 待制定下拉框 */
+.sel_width2{ width:85px;}/* 区县下拉框 */
+.sel_width3{ width:110px;}/* 工序任务名称下拉框*/
+.sel_tt{ float:left; margin-right:-4px;}/* 下拉框名称右边距 */
+
+
+/* ----翻页---- */
+.page1{ height:24px; padding:3px; text-align:center; }/* 高度 */
+.page_get{ width:30px; margin:0 2px;}/* 跳转框 */
+.page_up{ background:url(../images/left.png) no-repeat; width:16px; height:13px; border:none; cursor:pointer; margin-right:10px; }/* 上一页 */
+.page_dn{ background:url(../images/right.png) no-repeat; width:16px; height:13px; border:none; cursor:pointer; margin:0 10px; }/* 下一页 */
+.page_first{ background:url(../images/first.png) no-repeat; width:19px; height:13px; border:none; cursor:pointer;  margin-right:10px;}/* 第一页 */
+.page_last{background:url(../images/last.png) no-repeat; width:19px; height:13px; border:none; cursor:pointer;  margin-right:10px;}/* 最后一页 */
+
+
+.task-schedule-done{background:url(../images/task-schedule-done.png) repeat-x;width:100%;height:12px;margin-top:2px;margin-bottom: 2px;}
+.task-schedule-doing{background:url(../images/task-schedule-doing.png) repeat-x;width:100%;height:12px;margin-top:2px;margin-bottom: 2px;}
+.task-schedule-undo{background:url(../images/task-schedule-undo.png) repeat-x;width:100%;height:12px;margin-top:2px;margin-bottom: 2px;}
+
+/*提示消息*/
+.msg-div {
+    position:absolute;
+    left:35%;
+    top:10px;
+    width:auto;
+    z-index:20000;
+}
+.msg .x-box-mc {
+    font-size:14px;
+}
+
+/*附件选择*/
+.btn-file {
+	position: relative;
+	display: inline-block;
+	margin-top:1px;
+	width: 67px;
+	height: 20px;
+	background: url(../images/fileSelect.png) no-repeat left top;
+	text-align: center;
+	line-height: 18px;
+	overflow: hidden;
+	float:right;
+	right: 20px;
+}
+.btn-file:hover {
+			background-position: left -20px;
+		}
+.btn-file input {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 67px;
+	height: 20px;
+	opacity: 0;
+	filter: alpha(opacity: 0);
+	cursor: pointer;
+}
+.btn-file1 {
+	position: relative;
+	display: inline-block;
+	margin-top:1px;
+	width: 67px;
+	height: 20px;
+	background: url(../images/fileSelect.png) no-repeat left top;
+	text-align: center;
+	line-height: 18px;
+	overflow: hidden;
+	top:5px;
+}
+.btn-file1:hover {
+			background-position: left -20px;
+		}
+.btn-file1 input {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 67px;
+	height: 20px;
+	opacity: 0;
+	filter: alpha(opacity: 0);
+	cursor: pointer;
+}
+/*图片选择*/
+.img-file {
+	position: relative;
+	display: inline-block;
+	width: 53px;
+	height: 53px;
+	background: url(../images/add.png) no-repeat center;
+	text-align: center;
+	line-height: 18px;
+	overflow: hidden;
+	float:right;
+	border: 1px solid rgb(204,204,204);
+}
+.img-file input {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 38px;
+	height: 40px;
+	opacity: 0;
+	filter: alpha(opacity: 0);
+	cursor: pointer;
+	border: 1px solid rgb(204,204,204);
+}
+/*选择项目*/
+input.btn_choose_project {
+	background-image: url(../images/project/server_add.png);
+	background-color: transparent;
+	background-position:center;
+	background-repeat: no-repeat;
+	border: 0;
+	height: 18px;
+	width: 20px;
+	margin-left: 2px;
+	margin-right: 2px;
+	cursor: hand;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+.hidden_handle_fold{
+	background-image: url(../images/dot_minisize.gif);
+	background-position: center center;
+	background-repeat: no-repeat;
+	display: inline;
+	width: 12px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.hidden_handle_unfold{
+	background-image: url(../images/dot_max.gif);
+	background-position: center center;
+	background-repeat: no-repeat;
+	display: inline;
+	width: 12px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.main table tr th,table tr[class*='th_bg'] th{text-align: center;white-space:nowrap;}
+div[class*='boder1'] table tr td{padding:0px;padding:7px 1px;}
+fieldset[class*='pb5'] table tr td{padding:0px;padding:7px 1px;}
+.main div[class*='boder1'] fieldset[class*='boder2']{border-top: 0px;border-right: 0px;}
+div[class*='boder1'] table tr[class*='th_bg'] td{padding:0px;white-space:nowrap;}
+textarea{padding:1px;font-size: 12px;line-height: 16px;height:70px;}
+input[type='text'],textarea,select{border:1px solid #888;}
+/* select{padding:3px 0;} */
+input[type='radio']{vertical-align: middle;border: 0px;}
+input[type='checkbox']{border:0;}
+input[type='button']{cursor: pointer;vertical-align: middle;}
+.accBtn{margin: 0 0 5px 0;}
+.main table tr td input[type='text'],.boder2 table tr td input[type='text'],.main table tr td select,.main table tr td option{padding:1px;height:20px;}
+.main table tr td input[type='text'],.boder2 table tr td input[type='text']{padding-left:4px;}
+
+/*统一系统的按钮图标*/
+.choosePeople,.choosePeople2,.chooseProject,.chooseOrg,.chooseOther{
+	width:16px;
+	height:16px;
+    border:0;
+    vertical-align: middle;
+}
+.choosePeople{background: url(../images/user_add.png) no-repeat top left;}/*选人按钮*/
+.choosePeople2{background: url(../images/people.png) no-repeat top left;}/*选人按钮2*/
+.chooseProject{background: url(../images/project_add.png) no-repeat top left;}/*选项目按钮*/
+.chooseOrg{background: url(../images/organisation_add.png) no-repeat top left;}/*选单位按钮，谁单词都打错，明明是organization*/
+.chooseOther{background: url(../images/set2.png) no-repeat top left;}/*其他按钮（齿轮）*/
+
+.go{width:15px; height:17px; border: 0px; background: url(../images/go.png) no-repeat;vertical-align: middle;}
+
+.moveBg{background-color:#f0f8ff;}/*移动行变色*/
+.clickBg{background-color:#f1f6fa;}/*点击行变色*/
+.tipGreen{color:green;}
+.tipRed{color:red;}
+.tipOrange{color:orange;}
+.hidn{display: none;}
+.helpBtn{background: url(../images/help.png) no-repeat;vertical-align: middle;}
+.helpImg{vertical-align: middle;cursor: pointer;}

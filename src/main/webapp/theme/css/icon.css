@@ -1,0 +1,64 @@
+.icon-style {
+	background-image: url(../images/icon/editor.gif) !important;
+}
+
+.icon-user {
+	background-image: url(../images/icon/user.gif) !important;
+}
+
+.icon-logout{
+	background-image: url(../images/icon/exit.gif) !important;
+}
+.icon-pwdedit{
+	background-image: url(../images/icon/vty16.gif) !important;
+}
+.icon-home{
+	background-image: url(../images/icon/home.gif) !important;
+}
+.icon-tree{
+	background-image: url(../images/icon/tree.png) !important;
+}
+
+.icon-expand-members {
+    background-image: url(../images/icon/expand-members.gif) !important;
+}
+
+.icon-search {
+    background-image: url(../images/icon/search.png) !important;
+}
+
+.icon-hot {
+    background-image: url(../images/icon/icon.gif) !important;
+}
+
+.icon-key {
+    background-image: url(../images/icon/key.gif) !important;
+}
+
+.icon-pk {
+    background-image: url(../images/icon/pkColumn.gif) !important;
+}
+
+.icon-col {
+    background-image: url(../images/icon/column.gif) !important;
+}
+
+.icon-table {
+    background-image: url(../images/icon/table.gif) !important;
+}
+
+.icon-message {
+	background-image: url(../images/icon/notice.png) !important;
+}
+
+.icon-link {
+	background-image: url(../images/icon/link.png) !important;
+}
+.icon-load_r{
+	background-image: url(../images/icon/load_r.png) !important;
+}
+.icon-activity{
+	background-image: url(../images/icon/activity.png) !important;
+}
+
+

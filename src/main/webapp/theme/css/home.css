@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+
+.icon1{ position:relative; left:-5px; top:3px;}/* 个人工作台图标 */
+.list_icon{ background:url(../images/list_icon.png) no-repeat 7px 11px;}/* 我的项目图标 */
+.diying{ width:120px; border:none; background:url(../images/set2.png) no-repeat 0px 4px; line-height:26px; padding-left:16px; margin-right:5px;
+ cursor:pointer;}/* 自定义快速导航 */
+ 
+.pgup{ margin:5px 0 0 10px; }
+.pgup a{ width:10px; height:15px; display:block; background:url(../images/anniu_L1.png) no-repeat; }
+.pgup a:hover{background: url(../images/anniu_L2.png) no-repeat; }/* 快速导航左箭头 */
+
+.pgdn{margin:5px 10px 0 0; }
+.pgdn a{width:10px; height:15px; display:block; background:url(../images/anniu_R1.png) no-repeat;}
+.pgdn a:hover{background:url(../images/anniu_R2.png) no-repeat;}/* 快速导航右箭头 */
+
+/* 工作任务导航 */
+.h30{ height:30px; padding:5px 10px 0;}
+.title1{ width:70px; height:28px; line-height:28px;}
+.text_bg{ width:20%; height:26px; background:url(../images/kj_bg.png) repeat-x; border:1px solid #b8caee; line-height:28px; padding-left:15px;}
+
+/* 项目列表搜索 */
+.search{ width:90%; height:24px; text-indent:0.5em;}
